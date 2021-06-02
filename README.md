@@ -14,7 +14,7 @@ Você terá a praticidade da nossa equipe especializada em design para mondar su
 
 ## Visite nossa página
 
-Entre e confira as novidades que tenhos preparado para você!! <a href="https://cristianodasilvaferreira.github.io/bikcraft/" target="_blank">Bikcraft</a>
+Entre e confira as novidades que tenhos preparado para você!! <a href="https://cristianodasilvaferreira.github.io/Bikcraft/" target="_blank">Bikcraft</a>
 
 
 
