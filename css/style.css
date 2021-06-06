@@ -263,16 +263,17 @@ img {
     padding: 60px 0;
 }
 
-.qualidade::after {
+.qualidade:after {
     content: "";
-    height: 634px;
+    width: 634px;
     height: 83px;
     display: block;
     background: url("../img/linhas.png") no-repeat center;
     position: absolute;
     top: 209px;
     right: 162px;
-}
+    z-index: -1;
+  }
 
 .qualidade img {
     margin: 0 auto;
