@@ -11,6 +11,7 @@ p {
 
 img {
     display: block;
+    max-width: 100%;
 }
 
 .btn {
@@ -190,11 +191,15 @@ img {
 /* Produtos */
 .produtos {
     padding: 60px 0;
-    text-align: center;
 }
 
-.produtos_lista li {
+.produtos li img {
+    text-align: center;
     background: #fec63e;
+}
+
+.produtos_lista li img {
+    margin: 0 auto;
 }
 
 .produtos_lista li h3 {
