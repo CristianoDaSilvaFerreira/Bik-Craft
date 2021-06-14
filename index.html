@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +11,9 @@
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsivo.css">
+    <script src="js/libs/modernizr.custom.45655.js"></script>
 </head>
+
 <body>
     <!-- header -->
     <header class="header">
@@ -48,35 +51,35 @@
     <!-- /section - introdução -->
 
     <!-- section - produtos -->
-    <section class="produtos container">
+    <section class="produtos container animar">
         <h2 class="subtitulo">Produtos</h2>
-        <ul class="produtos_lista">
+			<ul class="produtos_lista">
 
-            <li class="grid-1-3">
-                <div class="produtos_icone">
-                    <img src="img/produtos/passeio.png" alt="Bikcraft Passeio">
-                </div>
-                <h3>Passeio</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum excepturi.</p>
-            </li>
+				<li class="grid-1-3">
+					<div class="produtos_icone">
+						<img src="img/produtos/passeio.png" alt="Bikcraft Passeio">
+					</div>
+					<h3>Passeio</h3>
+					<p>Muito melhor do que passear pela orla a vidros fechados.</p>
+				</li>
 
-            <li class="grid-1-3">
-                <div class="produtos_icone">
-                    <img src="img/produtos/esporte.png" alt="Bikcraft Passeio">
-                </div>
-                <h3>Esporte</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum excepturi.</p>
-            </li>
-             
-            <li class="grid-1-3">
-                <div class="produtos_icone">
-                    <img src="img/produtos/retro.png " alt="Bikcraft Passeio">
-                </div>
-                <h3>Retro</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum excepturi.</p>
-            </li>
+				<li class="grid-1-3">
+					<div class="produtos_icone">
+						<img src="img/produtos/esporte.png" alt="Bikcraft Esporte">
+					</div>
+					<h3>Esporte</h3>
+					<p>Mais rápida do que Forrest Gump, ninguém vai pegar você.</p>
+				</li>
 
-        </ul>
+				<li class="grid-1-3">
+					<div class="produtos_icone">
+						<img src="img/produtos/retro.png" alt="Bikcraft Retrô">
+					</div>
+					<h3>Retrô</h3>
+					<p>O passado volta para lembrarmos o que devemos fazer no futuro.</p>
+				</li>
+
+			</ul>
 
         <div class="call">
             <p>clique aqui e veja os detalhes dos produtos</p>
@@ -90,12 +93,12 @@
     <section class="portfolio">
         <div class="container">
             <h2 class="subtitulo">Portfólio</h2>
-            <ul class="portfolio_lista">
-                <li class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicicletas Retro"></li>
-                <li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="Bicicletas Passeio"></li>
-                <li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicicletas Esporte"></li>
-            </ul>
-            
+            <div class="portfolio_lista">
+                <div class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicicletas Retro"></div>
+                <div class="grid-8"><img src="img/portfolio/passeio.jpg" alt="Bicicletas Passeio"></div>
+                <div class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicicletas Esporte"></div>
+            </div>
+
             <div class="call">
                 <p>conheça mais o nosso portfólio</p>
                 <a href="portfolio.html" class="btn">Portfólio</a>
@@ -117,12 +120,14 @@
 
             <li class="grid-1-3">
                 <h3>Design</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel eligendi aliquam id porro laboriosam rerum, quod ipsum provident excepturi?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel eligendi aliquam id porro laboriosam
+                    rerum, quod ipsum provident excepturi?</p>
             </li>
 
             <li class="grid-1-3">
                 <h3>Sustentabilidade</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed debitis totam modi placeat ducimus rerum fugit, consectetur laborum vitae.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed debitis totam modi placeat ducimus
+                    rerum fugit, consectetur laborum vitae.</p>
             </li>
         </ul>
 
@@ -135,12 +140,13 @@
     <!-- /section - qualidade -->
 
     <!-- section - quebra -->
-    <section class="quebra">        
+    <section class="quebra">
         <blockquote class="quote-externo container">
-            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, nemo totam facilis vero dolores tempore sit placeat incidunt deleniti facilis!"</p>
+            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, nemo totam facilis vero dolores
+                tempore sit placeat incidunt deleniti facilis!"</p>
             <cite>Willian Moris</cite>
         </blockquote>
-        
+
     </section>
     <!-- /section - quebra -->
 
@@ -149,7 +155,8 @@
             <div class="container">
                 <div class="grid-8 footer_historia">
                     <h3>Nossa História</h3>
-                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ex aut eaque voluptatum repellendus itaque!"</p>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ex aut eaque voluptatum
+                        repellendus itaque!"</p>
                 </div>
 
                 <div class="grid-4 footer_contato">
@@ -165,13 +172,16 @@
                     <h3>Contato</h3>
                     <ul>
                         <li>
-                            <a href="http://facebook.com" target="_blank"><img src="img/redes-sociais/facebook.png" alt="Rede Social Facebook"></a>
+                            <a href="http://facebook.com" target="_blank"><img src="img/redes-sociais/facebook.png"
+                                    alt="Rede Social Facebook"></a>
                         </li>
                         <li>
-                            <a href="http://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.png" alt="Rede Social Instagram"></a>
+                            <a href="http://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.png"
+                                    alt="Rede Social Instagram"></a>
                         </li>
                         <li>
-                            <a href="http://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.png" alt="Rede Social Twitter"></a>
+                            <a href="http://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.png"
+                                    alt="Rede Social Twitter"></a>
                         </li>
                     </ul>
                 </div>
@@ -185,6 +195,16 @@
         </div>
     </footer>
 
+    <!-- JavaScript -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/libs/jquery-1.11.2.min.js"><\/script>')
+    </script>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
 
 </body>
+
 </html>

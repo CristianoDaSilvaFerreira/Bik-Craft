@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/responsivo.css">
+    <script src="js/libs/modernizr.custom.45655.js"></script>
 </head>
 
 <body>
@@ -46,20 +47,53 @@
     </section>
     <!-- /section - introdução -->
 
-    <section class="container">
-        <blockquote class="quate_cliente">
-            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur odit dicta facere blanditiis nulla iusto minus cumque, harum distinctio praesentium dignissimos saepe! Perspiciatis, praesentium voluptas inventore dolore architecto doloribus magnam!</p>
-            <cite>Barbara Moss</cite>
-        </blockquote>
+    <section class="container animar-interno">
+        <ul class="rslides">
+            <li>
+                <blockquote class="quate_cliente">
+                    <p>"Caros amigos, a infinita diversidade da realidade única nos obriga à análise das condições
+                        epistemológicas e cognitivas exigidas. Por outro lado, a complexidade dos estudos efetuados
+                        implica que a condição necessária e suficiente da fundamentação metafísica das representações.."
+                    </p>
+                    <cite>Barbara Moss</cite>
+                </blockquote>
+            </li>
+            <li>
+                <blockquote class="quate_cliente">
+                    <p>" Pensando mais a longo prazo, a valorização de fatores subjetivos limita as atividades da
+                        sensibilia dos não-sentidos. O que temos que ter sempre em mente é que a percepção das
+                        dificuldades nos arrasta ao labirinto de sofismas obscuros dos sinais peirceanos percebidos pelo
+                        sujeito imerso nos fenômenos sociais."</p>
+                    <cite>Bernardo Oliveira</cite>
+                </blockquote>
+            </li>
+            <li>
+                <blockquote class="quate_cliente">
+                    <p>"No mundo atual, o tríptico movimento de pensamento cumpre um papel essencial na formulação da
+                        afirmação que o Ser é e o Não ser não é. Por fim, na sequência dessa espécie de introdução, o
+                        su-jeito de que fala Kant deve passar por modificações independentemente da esfera do virtual, a
+                        saber, do pensamento em potência."</p>
+                    <cite>Renata Gomes</cite>
+                </blockquote>
+            </li>
+        </ul>
     </section>
 
     <!-- section - portfolio -->
     <section class="portfolio">
         <div class="container">
-            <ul class="portfolio_lista">
-                <li class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicicletas Retro"></li>
-                <li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="Bicicletas Passeio"></li>
-                <li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicicletas Esporte"></li>
+            <ul  class="portfolio_lista rslides_portfolio">
+                <li>
+                    <div class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicicletas Retro"></div>
+                    <div class="grid-8"><img src="img/portfolio/passeio.jpg" alt="Bicicletas Passeio"></div>
+                    <div class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicicletas Esporte"></div>
+                </li>
+
+                <li>
+                    <div class="grid-8"><img src="img/portfolio/passeio.jpg" alt="Bicicletas Passeio"></div>
+                    <div class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicicletas Retro"></div>
+                    <div class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicicletas Esporte"></div>
+                </li>
             </ul>
         </div>
     </section>
@@ -68,7 +102,8 @@
     <!-- section - quebra -->
     <section class="quebra">
         <blockquote class="quote-externo container">
-            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minus neque recusandae sapiente, consequatur illo!"</p>
+            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minus neque recusandae sapiente,
+                consequatur illo!"</p>
             <cite>Willian Moris</cite>
         </blockquote>
 
@@ -80,7 +115,8 @@
             <div class="container">
                 <div class="grid-8 footer_historia">
                     <h3>Nossa História</h3>
-                    <p>""Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minus neque recusandae sapiente, consequatur illo!""</p>
+                    <p>""Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minus neque recusandae
+                        sapiente, consequatur illo!""</p>
                 </div>
 
                 <div class="grid-4 footer_contato">
@@ -119,6 +155,14 @@
         </div>
     </footer>
 
+    <!-- JavaScript -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/libs/jquery-1.11.2.min.js"><\/script>')
+    </script>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
