@@ -154,5 +154,11 @@
 	.orcamento_dados ul {
 		padding-right: 0px;
 	}
+
+	/* Contanto */
+	.contato_form {
+		padding-right: 0px;
+		padding-bottom: 40px;
+	}
 }
 
